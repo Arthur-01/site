@@ -90,7 +90,7 @@ margin-top: 4vh;
 @media (min-width: 768px) and (max-width: 991px){
 .p1{
 font-size: 15px;
-margin-top: 8%;
+margin-top: 6%;
 }
 .sm{
 position: absolute;
@@ -101,6 +101,7 @@ margin-left: 25%;
 position: relative;
 display: inline-block;
 margin-left: 75%;
+margin-bottom: 5%;
 }
 }
 
@@ -108,7 +109,7 @@ margin-left: 75%;
 @media (max-width: 767px){
 .p1{
 font-size: 15px;
-margin-top: 8%;
+margin-top: 6%;
 }
 .sm{
 position: absolute;
@@ -119,5 +120,6 @@ margin-left: 20%;
 position: relative;
 display: inline-block;
 margin-left: 70%;
+margin-bottom: 5%;
 }
 }
