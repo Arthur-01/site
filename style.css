@@ -101,6 +101,9 @@ position: relative;
 display: inline-block;
 margin-left: 75%;
 }
+section{
+margin-top: -20px;
+}
 }
 
 /*XS DEVICES*/
@@ -117,5 +120,8 @@ margin-left: 20%;
 position: relative;
 display: inline-block;
 margin-left: 70%;
+}
+section{
+margin-top: -20px;
 }
 }
