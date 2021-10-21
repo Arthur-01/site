@@ -13,7 +13,7 @@
     height: 50vh;
     }
     .brand{
-    padding-top: 25px;
+    padding-top: 5%;
     }
     .logo{
     animation: logo 3s ease-out;
@@ -24,16 +24,17 @@
     animation: fade 2s ease-in 3s backwards;
     }
     .contatos{
-    display: block;
+    display:flex;
+    flex-direction: column;
+    gap: 90px;
     position: relative;
     margin-left: 98%;
-    margin-top: -240px;
+    margin-top: -280px;
     animation: fade 2s ease-in 3s backwards;
     }
     .contatos a img{
     width: 50px; 
     height: 50px;
-    margin-bottom: 40px;
     }
     .conteudo{
     margin-top: 9%;
@@ -68,7 +69,7 @@
     margin-left: -10px;
     }
     @keyframes logo{
-    0%{margin-top: -250px;}
+    0%{margin-top: -370px;}
     75%{margin-top: 50px;}
     100%{margin-top: 0px;}
     }
@@ -82,6 +83,13 @@
     padding-left: 50%;
     left: -70px;
     }
+    .contatos{
+    gap: 70px;
+    margin-top: -210px;
+    }
+    .logo{
+    transform: scale(0.8);
+    }
     }
     /* Small devices (landscape phones, 576px and up)*/
     @media (min-width: 576px) { 
@@ -89,13 +97,27 @@
     padding-left: 20%;
     left: -50px;
     }
-     }
+    .contatos{
+    gap: 70px;
+    margin-top: -220px;
+    }
+    .logo{
+    transform: scale(0.8);
+    }
+    }
     
     /* Medium devices (tablets, 768px and up)*/
     @media (min-width: 768px) {
     section{
     padding-left: 2%;
     left: 0px;
+    }
+    .contatos{
+    gap: 70px;
+    margin-top: -240px;
+    }
+    .logo{
+    transform: scale(0.8);
     }
     }
     
@@ -108,6 +130,13 @@
     padding-left: 8%;
     left: -20px;
     }
+    .contatos{
+    gap: 90px;
+    margin-top: -260px;
+    }
+    .logo{
+    transform: scale(0.9);
+    }
     }
     
     /* X-Large devices (large desktops, 1200px and up)*/
@@ -119,6 +148,13 @@
     padding-left: 10%;
     left: 0px;
     }
+    .contatos{
+    gap: 90px;
+    margin-top: -280px;
+    }
+    .logo{
+    transform: scale(1);
+    }
     }
     
     /* XX-Large devices (larger desktops, 1400px and up)*/
@@ -129,5 +165,12 @@
     section{
     padding-left: 10%;
     left: 40px;
+    }
+    .contatos{
+    gap: 90px;
+    margin-top: -290px;
+    }
+    .logo{
+    transform: scale(1);
     }
     }
